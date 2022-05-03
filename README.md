@@ -14,10 +14,14 @@ Type y when prompted with the following question: You are not in an empty direct
 
 5.) Run astrocloud dev start
 
-6.) run git push --set-upstream origin <insert_team_name_here>-main
+6.) Run git add .
 
-6.) Work through the instructions here: 
+7.) Run git commit -am "add astrocloud skeleton files"
 
-7.) Save your code to a new local repository for your future reference. 
+8.) run git push --set-upstream origin <insert_team_name_here>-main
 
-8.) Delete your team's branches from this repo!
+9.) Work through the instructions here: 
+
+10.) Save your code to a new local repository for your future reference. 
+
+11.) Delete your team's branches from this repo!
