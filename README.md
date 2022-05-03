@@ -10,9 +10,11 @@ This commmand create a unique branch for your team to serve as the 'main' branch
 
 4.) Run astrocloud dev init
 
+Type y when prompted with the following question: You are not in an empty directory. Are you sure you want to initialize a project? (y/n)
+
 5.) Run astrocloud dev start
 
-6.) run git push --
+6.) run git push --set-upstream origin <insert_team_name_here>-main
 
 6.) Work through the instructions here: 
 
