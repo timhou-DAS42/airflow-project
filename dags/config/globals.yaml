@@ -1,0 +1,11 @@
+default_args:
+    owner: das42
+    depends_on_past: false
+    retries: 1
+    start_date: "2021-09-01"
+    max_retry_delay: 120
+    retry_exponential_backoff: true
+snowflake_conn_id: snowflake_airflow
+aws_conn_id: aws_airflow
+aws_bucket_key: das42-airflow-training/raw-ingester-out/manifests
+team_name: bruce
