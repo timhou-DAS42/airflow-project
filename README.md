@@ -4,7 +4,9 @@
 
 2.) CD into the local directory. 
 
-4.) Create a unique branch for your team to serve as the 'main' branch for your team. Make all pull requests to that branch throughout the project. We want to keep the main branch in its current state for future projects. 
+4.) Run git checkout -b <insert_team_name_here>-main 
+
+This commmand create a unique branch for your team to serve as the 'main' branch for your team. Make all pull requests to this branch throughout the project. We want to keep the true main branch in its current state for future projects. 
 
 3.) Run astrocloud dev init
 
