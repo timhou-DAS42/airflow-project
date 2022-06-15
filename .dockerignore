@@ -1,5 +1,0 @@
-astrocloud
-.git
-.env
-airflow_settings.yaml
-logs/
