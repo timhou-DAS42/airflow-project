@@ -8,7 +8,7 @@ drop table if exists airflow_db_{{ params.env }}.raw_stage_{{ params.team_name }
 
 create table if not exists airflow_db_{{ params.env }}.raw_stage_{{ params.team_name }}.int (
   ipa string,
-  date_field string,
+  date string,
   time_field string,
   agent_string string,
   idad_index string,
@@ -41,7 +41,7 @@ where run_datehour = 2019070415
 copy into airflow_db_{{ params.env }}.raw_stage_{{ params.team_name }}.int from (
   select distinct
     t.$1 as ipa,
-    t.$2 as date_field,
+    t.$2 as date,
     t.$3 as time_field,
     t.$4 as agent_string,
     t.$5 as idad_index,

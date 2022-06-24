@@ -8,4 +8,4 @@ default_args:
 snowflake_conn_id: snowflake_airflow
 aws_conn_id: aws_airflow
 aws_bucket_key: das42-airflow-training/raw-ingester-out/manifests
-team_name: bruce
+team_name: timhou
